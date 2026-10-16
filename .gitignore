@@ -1,0 +1,36 @@
+# ===== Rust =====
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== 操作系统 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 临时与备份 =====
+*.bak
+*.tmp
+*.wip
+*~
+_rebuild*.md
+
+# ===== 本地环境 / 密钥（本项目当前无，预防性忽略）=====
+.env
+.env.*
+*.local
+*.pem
+*.key
+
+# ===== 运行产物 =====
+/logs/
+/output/
+/reports/
+*.log
